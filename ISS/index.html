@@ -1,9 +1,9 @@
 <html>
 <head>
   <title>Where in the World is the International Space Station?</title>
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-  <script src="http://code.jquery.com/jquery-2.0.3.min.js"> </script>
+  <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"> </script>
   <style>
     #map{ height: 100% }
   </style>
@@ -29,18 +29,18 @@
   }
 
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
       maxZoom: 18,
       id: 'mapbox.satellite',
       accessToken: 'pk.eyJ1IjoiamFyZWxscGVyZXoiLCJhIjoiY2lyMmR4a3dyMDJ6bGZrbTgzNjZuajluZCJ9.k4HQw3aoAkOkNssgnjRJUg'
   }).addTo(map);
 
   var ISSIcon = L.icon({
-      iconUrl: 'http://open-notify.org/Open-Notify-API/map/ISSIcon.png',
+      iconUrl: 'https://open-notify.org/Open-Notify-API/map/ISSIcon.png',
       iconSize: [50, 30],
       iconAnchor: [25, 15],
       popupAnchor: [50, 25],
-      shadowUrl: 'http://open-notify.org/Open-Notify-API/map/ISSIcon_shadow.png',
+      shadowUrl: 'https://open-notify.org/Open-Notify-API/map/ISSIcon_shadow.png',
       shadowSize: [60, 40],
       shadowAnchor: [30, 15]
   });
