@@ -24,7 +24,7 @@ h1, h2, h3, p {
     color: #181818;
 }
 
-h1 {
+h3 {
 	font-family: Oswald;
 	font-size: 24px;
 	font-style: normal;
@@ -32,7 +32,7 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 }
-h3 {
+h5 {
 	font-family: Oswald;
 	font-size: 14px;
 	font-style: normal;
